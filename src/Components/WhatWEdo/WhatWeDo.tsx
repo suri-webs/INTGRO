@@ -27,7 +27,7 @@ export default function WhatWeDo() {
                     })}
                 </div>
             </div>
-            <Image className="absolute -right-40 -bottom-210  z-1" src={"/images/OUr_bg.png"} alt={""} width={450} height={450}></Image>
+            <Image className="absolute -right-40 -bottom-210 max-lg:hidden z-7" src={"/images/OUr_bg.png"} alt={""} width={450} height={450}></Image>
         </section>
     )
 }

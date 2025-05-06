@@ -1,6 +1,7 @@
 import Header from "@/Components/Header/Header";
 import Navbar from "@/Components/Navbar/Navbar";
 import OurBenefits from "@/Components/OurBenefits/OurBenefits";
+import Testmonilas from "@/Components/Testmonilas/Testmonilas";
 import WhoWeAre from "@/Components/WhoWeAre/WhoWeAre";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <OurBenefits />
       <WhoWeAre />
+      <Testmonilas />
     </>
   );
 }

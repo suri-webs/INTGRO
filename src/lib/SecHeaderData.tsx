@@ -54,3 +54,34 @@ export const WhoWeAreData = [
         subtitle: "Our expertise",
     },
 ]
+
+
+// swiper 
+
+export const SwiperData = [
+    {
+        title: "TESTIMONIALS",
+        about: "COUTOMER STORIES",
+        para: " sunt explicabo emo enim lorem ipsum dolor sit.Milana BrooksMilana BrooksChicago, IllinoisBeatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur nemo",
+        image: "/images/testi-3.jpg",
+        name: "MILANA BROOKS",
+        work: "Chicago, lillinois",
+    },
+    {
+        title: "TESTIMONIALS",
+        about: "COUTOMER STORIES",
+        para: " sunt explicabo emo enim lorem ipsum dolor sit.Milana BrooksMilana BrooksChicago, IllinoisBeatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur nemo",
+        image: "/images/testi-1.jpg",
+        name: "ANNA LEWIS",
+        work: "Portland, Oregon",
+    },
+    {
+        title: "TESTIMONIALS",
+        about: "COUTOMER STORIES",
+        para: " sunt explicabo emo enim lorem ipsum dolor sit.Milana BrooksMilana BrooksChicago, IllinoisBeatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur nemo",
+        image: "/images/testi-2.jpg",
+        name: "PITER BOWMAN",
+        work: "New York city,ny",
+    },
+
+]

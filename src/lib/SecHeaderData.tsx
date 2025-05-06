@@ -28,3 +28,29 @@ export const CheckData = [
     { title: "Consectetur adipiscing elit" },
     { title: "Sed do eiusmod tempor" },
 ]
+export const WhoWeAreData = [
+    {
+        bgClass: "bg-[url('/images/WhoWeAre1.jpg')]",
+        num: "01.",
+        title: "PROJECT MANAGEMENT",
+        subtitle: "Our expertise",
+    },
+    {
+        bgClass: "bg-[url('/images/WhoWeAre2.jpg')]",
+        num: "02.",
+        title: "DESIGN",
+        subtitle: "Our expertise",
+    },
+    {
+        bgClass: "bg-[url('/images/WhoWeAre3.jpg')]",
+        num: "03.",
+        title: "DEVELOPMENT",
+        subtitle: "Our expertise",
+    },
+    {
+        bgClass: "bg-[url('/images/WhoWeAre4.jpg')]",
+        num: "04.",
+        title: "MARKETING",
+        subtitle: "Our expertise",
+    },
+]

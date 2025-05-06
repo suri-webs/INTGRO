@@ -3,7 +3,10 @@
 .bebas-neue {
   font-family: var(--font-bebas-neue);
 }
-
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
 /* styles.css */
 .custom-ellipse-radius {
   border-radius: 40% 70% 70% 30% / 30% 40% 70% 70%;

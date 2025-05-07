@@ -2,7 +2,7 @@ import { WhoWeAreData } from "@/lib/SecHeaderData";
 import Image from "next/image";
 export default function WhoWeAre() {
     return (
-        <section className="w-full py-[120px] flex flex-col gap-15 relative h-full bg-[#030308]">
+        <section className="w-full py-[70px] flex flex-col gap-15 relative h-full bg-[#030308]">
             <Image className="absolute -top-150 right-0 z-7 max-lg:hidden" src="/images/HeaderRight_bg.webp" alt="Right BG" width={470} height={500} />
             <div className="flex flex-col justify-center items-center text-white">
                 <div className="flex flex-col justify-center max-sm:items-start pl-[30px] items-center h-fit max-md:gap-4 gap-2">

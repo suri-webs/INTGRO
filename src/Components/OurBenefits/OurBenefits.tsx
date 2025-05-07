@@ -3,7 +3,7 @@ import { ArrowRight, Check } from "lucide-react";
 import Image from "next/image";
 export default function OurBenefits() {
     return (
-        <section className="w-full h-[600px] max-lg:h-full max-lg:py-[100px] max-lg:flex-col bg-[#030308] flex justify-center items-center">
+        <section className="w-full h-[600px] max-lg:h-full max-lg:py-[50px] max-lg:flex-col bg-[#030308] flex justify-center items-center">
             <div className="w-[45%] max-lg:w-[90%] h-full  flex justify-center items-center  ">
                 <Image src={"/images/OurB-Image.jpg"} alt={""} width={650} height={450}></Image>
             </div>

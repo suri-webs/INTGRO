@@ -1,3 +1,4 @@
+"use client"	
 import { WhatWEdoData } from "@/lib/SecHeaderData";
 import { Plus } from "lucide-react";
 import Image from "next/image";

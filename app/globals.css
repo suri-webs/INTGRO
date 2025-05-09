@@ -34,7 +34,11 @@ body {
   --swiper-pagination-bullet-vertical-gap: 6px;
 }
 
-
 .swiper-pagination-bullet {
-  border: 2px solid white;
+  background-color: #767674 !important; 
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--swiper-theme-color) !important; 
 }

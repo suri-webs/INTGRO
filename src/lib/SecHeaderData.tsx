@@ -85,3 +85,80 @@ export const SwiperData = [
     },
 
 ]
+
+
+export const ratings = [
+    { rating: 4.5, image: "/images/RingImage.jpg", name: "Digital torus", price: "$31.00 – $39.00" },
+    { rating: 3.5, image: "/images/Topi-image.jpg", name: "Crystal cone", price: "$25.00" },
+    { rating: 3.5, image: "/images/Diamonadimage.jpg", name: "Glass prism", price: "$59.00" },
+    { rating: 2.4, image: "/images/Spring.jpg", name: "Single helix", price: "$15.00" },
+];
+
+
+
+
+// About Us Data 
+ 
+
+interface Stat {
+    title: string;
+    value: string;
+    description: string;
+}
+
+export const stats: Stat[] = [
+    {
+        title: "about us",
+        value: "100+",
+        description: "Adipiscing elit, do eiusm.",
+    },
+    {
+        title: "Startups",
+        value: "356",
+        description: "Sed do eiusmod tempor.",
+    },
+];
+
+
+// blogs 
+
+
+export const blogs = [
+    {
+        title: "THE OUTSTANDING EXAMPLES OF AI IN MARKETING",
+        date: "Jan 2, 2024",
+        category: "Digital",
+        image: "/images/OurBg1.jpg",
+    },
+    {
+        title: "FINDING THE RIGHT E-COMMERCE HELP DESK",
+        date: "Jan 2, 2024",
+        category: "Digital",
+        image: "/images/OurBg2.jpg",
+    },
+    {
+        title: "SOFTWARE FOR STARTUPS & SMALL BUSINESSES",
+        date: "Jan 2, 2024",
+        category: "Digital",
+        image: "/images/OurBg3.jpg",
+    },
+    {
+        title: "FINDING THE RIGHT E-COMMERCE HELP DESK",
+        date: "Jan 2, 2024",
+        category: "Digital",
+        image: "/images/OurBg-6.jpg",
+    },
+    {
+        title: "FINDING THE RIGHT E-COMMERCE HELP DESK",
+        date: "Jan 2, 2024",
+        category: "Digital",
+        image: "/images/OurBg-4.jpg",
+    },
+    {
+        title: "FINDING THE RIGHT E-COMMERCE HELP DESK",
+        date: "Jan 2, 2024",
+        category: "Digital",
+        image: "/images/OurBg-5.jpg",
+    },
+
+];

@@ -162,3 +162,13 @@ export const blogs = [
     },
 
 ];
+
+
+export const clientLogos = [
+    "/images/client-white-1.png",
+    "/images/client-white-2.png",
+    "/images/client-white-3.png",
+    "/images/client-white-4.png",
+    "/images/client-white-5.png",
+    "/images/client-white-6.png",
+];

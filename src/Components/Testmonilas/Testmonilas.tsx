@@ -9,12 +9,12 @@ import { SwiperData } from '@/lib/SecHeaderData';
 
 export default function Testimonials() {
     return (
-        <section className="w-full h-[670px] max-lg:flex-col max-md:py-[70px] max-md:gap-7 max-lg:bg-[#0F0F1C] max-lg:h-full flex justify-center items-center bg-black">
-            <Swiper spaceBetween={50} pagination={{ clickable: true }} loop={true} modules={[Pagination]} autoplay={{ delay: 2000 }} speed={800} className="w-[48%] h-[100%] max-lg:w-full max-lg:h-[500px]">
+        <section className="w-full h-[670px] max-lg:flex-col max-md:py-[70px]  max-md:gap-7 max-lg:bg-[#0F0F1C] max-lg:h-full flex justify-center items-center bg-black">
+            <Swiper spaceBetween={50} pagination={{ clickable: true }} loop={true} modules={[Pagination]} autoplay={{ delay: 2000 }} speed={800} className="w-[48%] h-[100%] max-lg:w-full pb-20 max-lg:h-[500px]">
                 <div>
                     {SwiperData.map((item, i) => (
-                        <SwiperSlide key={i} className="w-full flex justify-center items-center text-white bg-[#0F0F1C]">
-                            <div className="w-full h-[90%] max-sm:gap-3 flex flex-col items-center justify-center gap-5 text-white bg-[#0F0F1C]">
+                        <SwiperSlide key={i} className="w-full cursor-grab mb-[70px] flex justify-center items-center text-white bg-[#0F0F1C]">
+                            <div className="w-full h-[100%]  max-sm:gap-3 flex flex-col items-center justify-center gap-5 text-white bg-[#0F0F1C]">
                                 <h3 className="bebas-neue text-2xl font-medium">{item.title}</h3>
                                 <h1 className="bebas-neue text-5xl">{item.about}</h1>
                                 <Quote className="w-6 h-6 text-white" />
@@ -32,8 +32,8 @@ export default function Testimonials() {
                 </div>
             </Swiper>
             <div className='w-[52%] max-lg:h-[300px] max-lg:w-[90%] relative h-full flex justify-center items-center'>
-                <div className='w-[100px] h-[100px] max-md:w-[80px] max-md:h-[80px] flex justify-center items-center  bg-white absolute  max-sm:animate-pulse rounded-full z-49'>
-                    <Play className='fill-black' />
+                <div className='w-[100px] h-[100px] max-md:w-[80px] cursor-pointer max-md:h-[80px] flex justify-center items-center  bg-white absolute  max-sm:animate-pulse rounded-full z-49'>
+                    <Play className='fill-black ' />
                 </div>
                 <Image className='absolute' src={'/images/Testmonilas_girl.jpg'} alt={''} fill></Image>
             </div>

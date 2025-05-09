@@ -11,7 +11,7 @@ export default function WhatWeDo() {
                     <h3 className="bebas-neue text-2xl font-medium">WHAT WE DO</h3>
                     <h4 className="bebas-neue  text-6xl max-md:text-center max-sm:text-4xl">SERVICES FOR STARTUPS</h4>
                 </div>
-                <div className="w-full h-[600px] max-md:h-full max-md:gap-10 max-md:flex-col flex justify-center items-center">
+                <div className="w-full h-[600px] cursor-pointer max-md:h-full max-md:gap-10 max-md:flex-col flex justify-center items-center">
                     {WhatWEdoData.map((items, index) => {
                         return (
                             <div key={index} className="flex group flex-col w-[27%] max-md:w-[90%] max-md:gap-3  gap-3 justify-center items-center">
@@ -20,7 +20,7 @@ export default function WhatWeDo() {
                                 </div>
                                 <h2 className="text-[27px] max-md:text-2xl font-medium bebas-neue">{items.title}</h2>
                                 <h3 className="w-[90%] max-md:text-[15px] text-[#8d8585d5] max-md:w-[95%] text-[18px] text-center">{items.subtitle}</h3>
-                                <span className="group flex  w-[50%] items-center justify-center h-[50px] relative">
+                                <span className="group flex  w-[50%] items-center  justify-center h-[50px] relative">
                                     <h4 className="overflow-x-hidden whitespace-nowrap w-0 opacity-0 transition-all duration-500 group-hover:w-[90px] group-hover:opacity-100 ">READ MORE</h4><Plus />
                                 </span>
                             </div>

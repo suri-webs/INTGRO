@@ -15,7 +15,7 @@ export default function JoinNow() {
         <div className="flex justify-center max-md:flex-col items-center w-full h-[80%] gap-10">
           {ratings.map((items, index) => (
             <div key={index} className="w-[23%] max-md:w-full max-md:h-[450px] h-full flex flex-col items-center">
-              <div className="relative group w-full h-[70%] overflow-hidden flex justify-center items-center">
+              <div className="relative group cursor-pointer w-full h-[70%] overflow-hidden flex justify-center items-center">
                 <Image src={items.image} alt="" fill className="w-full h-full transition-transform duration-500 hover:scale-105" />
                 <div className="absolute w-[90%] h-[50px] flex gap-5 justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-700 z-50">
                   {[Heart, ShoppingCart, ArrowRight].map((Icon, i) => (

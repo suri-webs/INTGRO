@@ -12,7 +12,7 @@ export default function WhoWeAre() {
                     <h3 className="text-[16px] text-[#ffffffc0]">Business CEO</h3>
                 </div>
             </div>
-            <div className="w-full h-[410px] max-lg:h-full flex max-lg:flex-col justify-center items-center gap-10">
+            <div className="w-full h-[410px] cursor-grab max-lg:h-full flex max-lg:flex-col justify-center items-center gap-10">
                 {WhoWeAreData.map((items, index) => {
                     return (
                         <div key={index} className={`w-[20%] h-[95%] max-lg:h-[300px] max-lg:w-[90%] flex justify-start pl-[30px] items-end relative overflow-hidden group rounded-xl bg-center bg-no-repeat ${items.bgClass}`}>

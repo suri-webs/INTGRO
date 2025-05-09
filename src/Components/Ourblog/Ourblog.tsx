@@ -9,7 +9,9 @@ import { blogs } from '@/lib/SecHeaderData';
 
 export default function Ourblog() {
     return (
-        <section className="w-full h-full bg-[#0F0F1C] max-sm:px-0 px-10 max-sm:py-10 py-20">
+        <section className="w-full relative h-full z-59 bg-[#0F0F1C] max-sm:px-0 px-10 max-sm:py-10 py-20">
+            <Image className="absolute max-md:hidden -top-2 right-0" src="/images/HeaderRight_bg.webp" alt="Right BG"
+             width={400} height={500} />
             <div className="w-full flex h-[150px] mb-4 max-sm:h-[150px] justify-center max-sm:gap-2 items-center flex-col">
                 <h3 className="bebas-neue text-2xl font-medium text-white">Our blog</h3>
                 <h1 className="bebas-neue text-[55px] max-md:w-[90%] max-sm:text-center max-sm:text-3xl max-sm:leading-8 leading-[56px] text-white">
@@ -25,9 +27,9 @@ export default function Ourblog() {
                 modules={[FreeMode, Pagination, Autoplay]} className="mySwiper w-[90%] h-full"
             >
                 {blogs.map((blog, index) => (
-                    <SwiperSlide key={index} className="bg-[#0F0F1C] max-sm:px-2 text-white overflow-hidden shadow-lg transition-all duration-300">
-                        <div className={`relative w-full max-sm:w-[100%] justify-center overflow-hidden rounded-t-2xl items-center ${[1, 3, 5, 7].includes(index) ? 'h-[470px] max-sm:h-[320px] max-lg:h-[300px]' : 'h-[370px] max-sm:h-[290px]'}`}>
-                            <Image src={blog.image} alt={blog.title} fill className="object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+                    <SwiperSlide key={index} className="max-sm:px-2 text-white overflow-hidden  transition-all duration-300">
+                        <div className={`relative w-full max-sm:w-[100%] justify-center overflow-hidden  items-center ${[1, 3, 5, 7].includes(index) ? 'h-[470px] max-sm:h-[320px] max-lg:h-[300px]' : 'h-[370px] max-sm:h-[290px]'}`}>
+                            <Image src={blog.image} alt={blog.title} fill className="object-cover cursor-pointer hover:scale-105 transition-transform duration-700" loading="lazy" />
                         </div>
                         <div className="pt-5 pb-17 max-sm:pt-5">
                             <p className="text-sm text-gray-400">

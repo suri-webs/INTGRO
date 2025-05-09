@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div className="flex space-x-4 text-white text-lg max-lg:hidden">
                     {NavbarData.map((item, index) => (<div key={index} className="relative group py-[10px] transition-all ease-in duration-700">
                         <Link href="#"
-                            className={`${item.styles}group px-[10px] font-medium transition-all duration-150 rounded-[7px] pb-1 text-[17px] border-b-0 hover:border-b-3 hover:border-white`}>
+                            className={`${item.styles} group px-[10px] font-medium transition-all duration-150 rounded-[7px] pb-1 text-[17px] border-b-0 hover:border-b-3 hover:border-white`}>
                             {item.anker}
                         </Link>
                         {item.anker !== "HOME" && item.anker !== "CONTACT US" && (
@@ -29,9 +29,9 @@ export default function Navbar() {
                 </div>
             </div>
             <div className=" w-[10%] max-lg:w-[30%] max-sm:w-[35%] flex justify-center gap-6 items-center">
-                <ShoppingBag className='w-[31px] h-[38px]  text-white' />
-                <Search className='w-[31px] h-[38px] text-white' />
-                <Grip className='w-[34px] h-[38px] text-white' />
+                <ShoppingBag className='w-[31px] h-[38px] cursor-pointer text-white' />
+                <Search className='w-[31px] h-[38px] cursor-pointer text-white' />
+                <Grip className='w-[34px] h-[38px] cursor-pointer text-white' />
             </div>
         </nav>
     );

@@ -20,7 +20,7 @@ export default function OurBenefits() {
                         )
                     })}
                 </div>
-                <button className="px-10 py-2 text-[19px] text-white bg-[#DF50E4] hover:bg-white hover:text-black bebas-neue flex w-fit transition-all duration-300 justify-center items-center gap-2">
+                <button className="px-10 py-2 text-[19px] cursor-pointer text-white bg-[#DF50E4] hover:bg-white hover:text-black bebas-neue flex w-fit transition-all duration-300 justify-center items-center gap-2">
                     ABOUT US <ArrowRight className="w-5" />
                 </button>
             </div>

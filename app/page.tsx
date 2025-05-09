@@ -1,4 +1,6 @@
 import AboutUs from "@/Components/AboutUs/AboutUs";
+import Footer from "@/Components/Footer/Footer";
+import FooterTop from "@/Components/FooterTop/FooterTop";
 import Header from "@/Components/Header/Header";
 import JoinNow from "@/Components/JionNow/JoinNow";
 import Navbar from "@/Components/Navbar/Navbar";
@@ -18,6 +20,8 @@ export default function Home() {
       <JoinNow />
       <AboutUs />
       <Ourblog />
+      <FooterTop />
+      <Footer />
     </>
   );
 }

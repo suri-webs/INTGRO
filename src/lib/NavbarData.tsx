@@ -50,3 +50,4 @@ export const NavbarData: NavbarProps[] = [
 export interface SecNavProps {
     anker: string;
 }
+
